@@ -1,0 +1,28 @@
+{
+  "name": "webpage-map-maker",
+  "version": "1.0.0",
+  "description": "webサイトの構造を可視化するやつ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sterashima78/webpage-map-maker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sterashima78/webpage-map-maker/issues"
+  },
+  "homepage": "https://github.com/sterashima78/webpage-map-maker#readme",
+  "devDependencies": {
+    "@types/puppeteer": "^3.0.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "puppeteer": "^5.3.1"
+  }
+}

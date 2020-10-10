@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  runner:
+    image: buildkite/puppeteer
+    volumes:
+      - ./:/app
+    working_dir: /app
